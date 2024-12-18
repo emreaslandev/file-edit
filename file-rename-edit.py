@@ -1,7 +1,7 @@
 import os
 
 # Kullanıcıdan klasör yolunu al
-folder_path = '/Users/emreaslan/Downloads/agdas'
+folder_path = 'klasor/yolu'
 
 # Klasördeki tüm dosyaları al
 files = os.listdir(folder_path)
