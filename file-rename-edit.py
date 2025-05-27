@@ -1,7 +1,7 @@
 import os
 
 # Kullanıcıdan klasör yolunu al
-folder_path = 'klasor/yolu'
+folder_path = input("Lütfen klasör yolunu girin: ")
 
 # Klasördeki tüm dosyaları al
 files = os.listdir(folder_path)
