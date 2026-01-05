@@ -1,7 +1,7 @@
 import os
 
 # Kullanıcıdan klasör yolunu al
-folder_path = input("Lütfen klasör yolunu girin: ")
+folder_path = input("Lütfen klasör yolunu girin: ").strip().strip('\'"')
 
 # Sadece dosya olanları ve gizli olmayanları al
 files = [
